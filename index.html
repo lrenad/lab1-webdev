@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--LAB 1-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Imam Abdulrahman Bin Faisal University - IT Deanship</title>
+        <meta name = "keywords" content = "IAU,IT,Support,Feedback">
+        <meta name = "description" content = "this page helps the IAU users to get IT support and send their feedback upon provided services">
+    </head>
+    <body>
+        <h1 align = "center"> welcome to the Imam Abdulrahman Bin Fasial University IT Support Unit </h1>
+        <p><a href="http://www.IAU.edu.sa/DU/ar/deanship/DEANSHIP_ICT/index.html">Visit Our IT Support Page</a></p>
+        <p><a href="mailto:helpdesk@IAU.edu.sa"> <img src="IT-Support.jpg" width="100" height="120" alt="click here to email the IT support help desk at IAU dot edu dot sa"></a></p>
+        <a href= "#feedbackForm"> Or go to the Feedback Form</a>
+        <p>
+            <strong><u>IT Deanship Departments' Members: </u></strong>
+            <ol>
+                <li> Hardware and Ntework Department Members: </li>
+                <ul>
+                    <li> Naif Ali</li>
+                    <li> Adel Saad </li>
+                </ul>
+                <li> Software Department Members: </li>
+                <ul> 
+                    <li> Mai Suliman</li>
+                    <li> Suad Salem</li>
+                </ul>
+            </ol>
+        </p>
+        <table border="1"> 
+            <caption><strong> Table 1: Statics about the Number of Services provided in the Deanship</strong></caption>
+           <thread>
+               <tr>
+                   <th>Department</th>
+                   <th>Problem Type</th>
+                   <th>No of issues dealt with Daily</th>
+               </tr>
+            </thread>
+            <tfoot>
+                <tr>
+                    <th colspan = "2">Total</th>
+                    <th>129</th>
+                </tr>
+            </tfoot>
+            <tbody align ="center">
+                <tr>
+                    <th rowspan="2">HW and Network Department</th>
+                    <td>Add a network spot</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                        <td>Fix HW</td>
+                        <td>5</td>
+                </tr>
+                <tr> 
+                    <td> Install a driever (printer) </td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Fill this form for your Feedback</h1>
+        <form id="feedbackForm" method="post" action="http://it.IAU.edu.sa"></form>
+        <input type="hidden" name="recipient" value="feedback_IT@IAU.edu.sa">
+        <input type="hidden" name="subject" value="IAU_IT_Support.html">
+        <label>Username : <input type="text" name="User Name" size="30" maxlength="100" value ="write your name here"></label>
+        <label>User ID: <input type="password" name = "UserID" size="30" maxlength="100"> </label>
+        <p><label>Comments:</label></p><p><textarea name="" comments="" cols="40" rows="5"></textarea></p>
+        <label> How was our response?</label>
+        <select name = "response">
+            <option selected>Immediate Response</option>
+            <option>Quick Response</option>
+            <option>Late Response</option>
+        </select>
+        <p><strong>Type of Services Provided: </strong>
+        <input type="checkbox" name="ServiceType" value="install"><label>Install SW</label>
+        <input type="checkbox" name="ServiceType" value="NTSpot"><label>Add a network spot</label>
+        <input type="checkbox" name="ServiceType" value="FixHW"><label>FixHW</label>
+        <input type="checkbox" name="ServiceType" value="FixHW"><label>Solved a Problem</label>
+        <input type="checkbox" name="ServiceType" value="FixHW"><label>Other: </label>
+        <label>Specify: <input type="text" name="SpecifyProblem" size="30" maxlength="100" value="Write you problem here"></label></p>
+        <p><strong>Quailty of Service Provided:</strong></p>
+        <input type="radio" name="ServiceQuailty" value="poor" checked><label>Excellent</label>
+        <input type="radio"name="ServiceQuality" value="veryGood"><label>VeryGood</label>
+        <input type="radio" name="ServiceQuailty" value="poor"><label>Poor</label></body>
+    </p>
+    <p>
+        <input type="submit" name="submit">
+        <input type="reset" name="clear">
+    </p>
+
+    </body>  
+    
+</html>
